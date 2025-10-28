@@ -1,4 +1,4 @@
-package com.squarefeet.demo
+package com.squarefeets.demo
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner

@@ -1,6 +1,6 @@
-package com.squarefeet.demo
+package com.squarefeets.demo
 
-import com.squarefeet.demo.UserEntity
+import com.squarefeets.demo.UserEntity
 import org.springframework.data.cassandra.repository.CassandraRepository
 import org.springframework.stereotype.Repository
 

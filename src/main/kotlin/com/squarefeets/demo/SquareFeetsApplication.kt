@@ -1,4 +1,4 @@
-package com.squarefeet.demo;
+package com.squarefeets.demo;
 
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication

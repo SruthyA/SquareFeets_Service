@@ -1,4 +1,4 @@
-package com.squarefeet.demo
+package com.squarefeets.demo
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -12,7 +12,7 @@ class CassandraConfig {
         return CqlSession.builder()
                 .withKeyspace("squarefeet")
                 .withLocalDatacenter("datacenter1")
-                .addContactPoint(java.net.InetSocketAddress("127.0.0.1", 9042))
+                //.addContactPoint(java.net.InetSocketAddress("127.0.0.1", 9042))
                 .build()
     }
 }

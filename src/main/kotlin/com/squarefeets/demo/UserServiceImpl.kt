@@ -1,8 +1,8 @@
-package com.squarefeet.demo
-import net.devh.boot.grpc.server.service.GrpcService
+package com.squarefeets.demo
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Service
 
-@GrpcService
+@Service
 class UserServiceImpl @Autowired constructor(private val userRepository: UserRepository){
     fun saveSampleUser() {
 

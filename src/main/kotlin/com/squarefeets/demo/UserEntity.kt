@@ -1,4 +1,4 @@
-package com.squarefeet.demo
+package com.squarefeets.demo
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.data.cassandra.core.mapping.Column
@@ -8,14 +8,14 @@ import org.springframework.data.cassandra.core.mapping.UserDefinedType
 
 @Table("user")
 data class UserEntity(
-        @PrimaryKey val id: String,
-        val name: String,
-        val description: String,
-        @field:Column("contact_info") val contactInfo : ContactInfo,
-        @field:Column("is_verified")  val isVerified: Boolean,
-        @field:Column("created_at") val createdAt: Long,
-        @field:Column("updated_at")val updatedAt: Long,
-        @field:Column("user_type")val userType: UserType
+    @PrimaryKey val id: String,
+    val name: String,
+    val description: String,
+    @field:Column("contact_info") val contactInfo : ContactInfo,
+    @field:Column("is_verified")  val isVerified: Boolean,
+    @field:Column("created_at") val createdAt: Long,
+    @field:Column("updated_at")val updatedAt: Long,
+    @field:Column("user_type")val userType: UserType
 )
 @UserDefinedType("contactinfo")
 data class ContactInfo(
