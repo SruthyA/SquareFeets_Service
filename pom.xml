@@ -36,8 +36,8 @@
 		<!-- Your Protobuf jar -->
 		<dependency>
 			<groupId>com.squarefeets</groupId>
-			<artifactId>squarefeetprotos</artifactId>
-			<version>1.0.0</version>
+			<artifactId>squarefeetsprotos</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 
 		<!-- gRPC Spring Boot Starter -->
